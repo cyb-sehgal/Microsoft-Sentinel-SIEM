@@ -1,0 +1,30 @@
+// ============================================================
+//  MICROSOFT SENTINEL — WATCHLIST INTEGRATION QUERIES
+//  Project: Microsoft Sentinel SIEM Lab
+// ============================================================
+
+
+// ── 1. View All Watchlist Entries ──────────────────────────────
+_GetWatchlist('PentestingIPAddresses')
+| project IPAddress
+
+
+// ── 2. Count Watchlist Entries ─────────────────────────────────
+_GetWatchlist('PentestingIPAddresses')
+| count
+
+
+// ── 3. Cross-Reference Watchlist with Network Logs ────────────
+// Flag connections from known pentest IPs
+let PentestingIPAddresses = _GetWatchlist('PentestingIPAddresses') | project IPAddress;
+// Append this to any network connection analytic rule query
+// Example:
+// CommonSecurityLog
+// | where SourceIP in (PentestingIPAddresses)
+
+
+// ── 4. High Connection Count Rule with Watchlist Integration ───
+// Full example: High count of connections — integrated with watchlist
+// This is the extra line added to the Content Hub template
+let PentestingIPAddresses = _GetWatchlist('PentestingIPAddresses') | project IPAddress;
+// (Paste the rest of the Content Hub rule below this line)

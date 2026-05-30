@@ -1,0 +1,36 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive files — NEVER commit these
+*.env
+.env
+secrets.json
+api-keys.txt
+credentials.json
+
+# Azure credentials
+azureauth.json
+*.publishsettings
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Python (for notebook work)
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Node (if any tooling)
+node_modules/
