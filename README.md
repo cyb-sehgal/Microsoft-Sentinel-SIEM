@@ -1,4 +1,4 @@
-# 🛡️ Microsoft Sentinel SIEM Lab Project
+# 🛡️ Microsoft Sentinel SIEM Project
 
 
 
@@ -79,33 +79,33 @@ Before starting this project, make sure you have the following ready:
 
 | # | Lab | Category | Status |
 |---|-----|----------|--------|
-| 01 | [Creating Azure Resource Group](docs/labs/01-resource-group.md) | Setup | ✅ Done |
-| 02 | [Creating Log Analytics Workspace](docs/labs/02-log-analytics-workspace.md) | Setup | ✅ Done |
-| 03 | [Deploying Microsoft Sentinel](docs/labs/03-sentinel-deployment.md) | Setup | ✅ Done |
-| 04 | [Azure RBAC for Sentinel](docs/labs/04-azure-rbac.md) | Identity & Access | ✅ Done |
-| 05 | [Content Hub & Data Connectors](docs/labs/05-content-hub-connectors.md) | Data Ingestion | ✅ Done |
-| 06 | [Ingesting Threat Intelligence (TAXII)](docs/labs/06-threat-intel-taxii.md) | Threat Intel | ✅ Done |
-| 07 | [Ingesting Microsoft Entra ID](docs/labs/07-entra-id-ingestion.md) | Data Ingestion | ✅ Done |
-| 08 | [Windows Security Events with AMA & DCR](docs/labs/08-ama-dcr-windows-events.md) | Data Ingestion | ✅ Done |
-| 09 | [Analytic Rules (All 7 Types)](docs/labs/09-analytic-rules.md) | Detection | ✅ Done |
-| 10 | [Incident Dashboard](docs/labs/10-incident-dashboard.md) | SOC Operations | ✅ Done |
-| 11 | [Ingestion Delay & Latency Workbook](docs/labs/11-ingestion-delay.md) | Monitoring | ✅ Done |
-| 12 | [Writing KQL Queries](docs/labs/12-kql-queries.md) | Threat Hunting | ✅ Done |
-| 13 | [Threat Hunting in Sentinel](docs/labs/13-threat-hunting.md) | Threat Hunting | ✅ Done |
-| 14 | [Hunt for Entra ID Events](docs/labs/14-hunt-entra-id.md) | Threat Hunting | ✅ Done |
-| 15 | [Threat Intelligence in Sentinel](docs/labs/15-threat-intelligence.md) | Threat Intel | ✅ Done |
-| 16 | [UEBA Configuration](docs/labs/16-ueba.md) | Behavioral Analytics | ✅ Done |
-| 17 | [Automation Rules](docs/labs/17-automation-rules.md) | SOAR | ✅ Done |
-| 18 | [Playbook with MITRE ATT&CK & ChatGPT](docs/labs/18-playbook-chatgpt.md) | SOAR | ✅ Done |
-| 19 | [Creating Workbooks](docs/labs/19-workbooks.md) | Visualization | ✅ Done |
-| 20 | [Watchlists & Analytic Rule Integration](docs/labs/20-watchlists.md) | Detection | ✅ Done |
-| 21 | [Notebooks with MSTICPy](docs/labs/21-notebooks-msticpy.md) | ML & Analysis | ✅ Done |
-| 22 | [Cost Optimization Workbook](docs/labs/22-cost-optimization.md) | FinOps | ✅ Done |
-| 23 | [Azure DevOps Integration](docs/labs/23-azure-devops.md) | IaC & CI/CD | ✅ Done |
-| 24 | [Defender XDR RBAC Configuration](docs/labs/24-defender-xdr-rbac.md) | Identity & Access | ✅ Done |
-| 25 | [Microsoft Defender for Cloud](docs/labs/25-defender-for-cloud.md) | Cloud Security | ✅ Done |
-| 26 | [SSH Brute Force Simulation (Kali)](docs/labs/26-brute-force-simulation.md) | Attack Simulation | ✅ Done |
-| 27 | [MITRE ATT&CK Overview in Sentinel](docs/labs/27-mitre-attack.md) | Framework | ✅ Done |
+| 01 | [Creating Azure Resource Group] | Setup | ✅ Done |
+| 02 | [Creating Log Analytics Workspace] | Setup | ✅ Done |
+| 03 | [Deploying Microsoft Sentinel] | Setup | ✅ Done |
+| 04 | [Azure RBAC for Sentinel] | Identity & Access | ✅ Done |
+| 05 | [Content Hub & Data Connectors] | Data Ingestion | ✅ Done |
+| 06 | [Ingesting Threat Intelligence (TAXII)] | Threat Intel | ✅ Done |
+| 07 | [Ingesting Microsoft Entra ID] | Data Ingestion | ✅ Done |
+| 08 | [Windows Security Events with AMA & DCR] | Data Ingestion | ✅ Done |
+| 09 | [Analytic Rules (All 7 Types)] | Detection | ✅ Done |
+| 10 | [Incident Dashboard] | SOC Operations | ✅ Done |
+| 11 | [Ingestion Delay & Latency Workbook] | Monitoring | ✅ Done |
+| 12 | [Writing KQL Queries] | Threat Hunting | ✅ Done |
+| 13 | [Threat Hunting in Sentinel] | Threat Hunting | ✅ Done |
+| 14 | [Hunt for Entra ID Events] | Threat Hunting | ✅ Done |
+| 15 | [Threat Intelligence in Sentinel] | Threat Intel | ✅ Done |
+| 16 | [UEBA Configuration] | Behavioral Analytics | ✅ Done |
+| 17 | [Automation Rules] | SOAR | ✅ Done |
+| 18 | [Playbook with MITRE ATT&CK & ChatGPT] | SOAR | ✅ Done |
+| 19 | [Creating Workbooks] | Visualization | ✅ Done |
+| 20 | [Watchlists & Analytic Rule Integration] | Detection | ✅ Done |
+| 21 | [Notebooks with MSTICPy] | ML & Analysis | ✅ Done |
+| 22 | [Cost Optimization Workbook] | FinOps | ✅ Done |
+| 23 | [Azure DevOps Integration] | IaC & CI/CD | ✅ Done |
+| 24 | [Defender XDR RBAC Configuration] | Identity & Access | ✅ Done |
+| 25 | [Microsoft Defender for Cloud] | Cloud Security | ✅ Done |
+| 26 | [SSH Brute Force Simulation (Kali)] | Attack Simulation | ✅ Done |
+| 27 | [MITRE ATT&CK Overview in Sentinel] | Framework | ✅ Done |
 
 ---
 
