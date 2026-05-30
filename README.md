@@ -294,4 +294,4 @@ Made with 💙 while learning Microsoft Sentinel
 
 - [Rahul Sehgal](https://www.github.com/cyb-sehgal)
 
-## Connect with me on [Linkedin](https://linkedin.com/in/rahulkram)
+ **Connect with me on [Linkedin](https://linkedin.com/in/rahulkram)**
