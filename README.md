@@ -292,5 +292,6 @@ Made with 💙 while learning Microsoft Sentinel
 
 ## Authors
 
-- [@Rahul Sehgal](https://www.github.com/cyb-sehgal)
+- [Rahul Sehgal](https://www.github.com/cyb-sehgal)
 
+## Connect with me on [Linkedin](https://linkedin.com/in/rahulkram)
