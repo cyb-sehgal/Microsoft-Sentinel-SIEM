@@ -1,4 +1,4 @@
-# 🛡️ Microsoft Sentinel SIEM Project
+# Microsoft Sentinel SIEM Project
 
 
 
@@ -16,17 +16,17 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project documents an end-to-end implementation of **Microsoft Sentinel**  Microsoft's cloud-native SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution on Azure.
 
 The project covers everything from initial deployment to advanced threat hunting, automation, and integration with the Microsoft Defender ecosystem - making it a comprehensive reference for anyone pursuing a **SOC Analyst**, **Cloud Security**, or **Azure Security Engineer** role.
 
-> 💡 **Completed using an Azure Student Subscription.** All steps, notes, and workarounds are documented for reproducibility.
+> **Completed using an Azure Student Subscription.** All steps, notes, and workarounds are documented for reproducibility.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -60,7 +60,7 @@ The project covers everything from initial deployment to advanced threat hunting
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before starting this project, make sure you have the following ready:
 
@@ -75,41 +75,41 @@ Before starting this project, make sure you have the following ready:
 
 ---
 
-## 🗂️ Labs Overview
+## Labs Overview
 
 | # | Lab | Category | Status |
 |---|-----|----------|--------|
-| 01 | [Creating Azure Resource Group] | Setup | ✅ Done |
-| 02 | [Creating Log Analytics Workspace] | Setup | ✅ Done |
-| 03 | [Deploying Microsoft Sentinel] | Setup | ✅ Done |
-| 04 | [Azure RBAC for Sentinel] | Identity & Access | ✅ Done |
-| 05 | [Content Hub & Data Connectors] | Data Ingestion | ✅ Done |
-| 06 | [Ingesting Threat Intelligence (TAXII)] | Threat Intel | ✅ Done |
-| 07 | [Ingesting Microsoft Entra ID] | Data Ingestion | ✅ Done |
-| 08 | [Windows Security Events with AMA & DCR] | Data Ingestion | ✅ Done |
-| 09 | [Analytic Rules (All 7 Types)] | Detection | ✅ Done |
-| 10 | [Incident Dashboard] | SOC Operations | ✅ Done |
-| 11 | [Ingestion Delay & Latency Workbook] | Monitoring | ✅ Done |
-| 12 | [Writing KQL Queries] | Threat Hunting | ✅ Done |
-| 13 | [Threat Hunting in Sentinel] | Threat Hunting | ✅ Done |
-| 14 | [Hunt for Entra ID Events] | Threat Hunting | ✅ Done |
-| 15 | [Threat Intelligence in Sentinel] | Threat Intel | ✅ Done |
-| 16 | [UEBA Configuration] | Behavioral Analytics | ✅ Done |
-| 17 | [Automation Rules] | SOAR | ✅ Done |
-| 18 | [Playbook with MITRE ATT&CK & ChatGPT] | SOAR | ✅ Done |
-| 19 | [Creating Workbooks] | Visualization | ✅ Done |
-| 20 | [Watchlists & Analytic Rule Integration] | Detection | ✅ Done |
-| 21 | [Notebooks with MSTICPy] | ML & Analysis | ✅ Done |
-| 22 | [Cost Optimization Workbook] | FinOps | ✅ Done |
-| 23 | [Azure DevOps Integration] | IaC & CI/CD | ✅ Done |
-| 24 | [Defender XDR RBAC Configuration] | Identity & Access | ✅ Done |
-| 25 | [Microsoft Defender for Cloud] | Cloud Security | ✅ Done |
-| 26 | [SSH Brute Force Simulation (Kali)] | Attack Simulation | ✅ Done |
-| 27 | [MITRE ATT&CK Overview in Sentinel] | Framework | ✅ Done |
+| 01 | Creating Azure Resource Group | Setup |  Done |
+| 02 | Creating Log Analytics Workspace | Setup |  Done |
+| 03 | Deploying Microsoft Sentinel | Setup |  Done |
+| 04 | Azure RBAC for Sentinel | Identity & Access |  Done |
+| 05 | Content Hub & Data Connectors | Data Ingestion |  Done |
+| 06 | Ingesting Threat Intelligence (TAXII) | Threat Intel |  Done |
+| 07 | Ingesting Microsoft Entra ID | Data Ingestion |  Done |
+| 08 | Windows Security Events with AMA & DCR | Data Ingestion |  Done |
+| 09 | Analytic Rules (All 7 Types) | Detection |  Done |
+| 10 | Incident Dashboard | SOC Operations |  Done |
+| 11 | Ingestion Delay & Latency Workbook | Monitoring |  Done |
+| 12 | Writing KQL Queries | Threat Hunting |  Done |
+| 13 | Threat Hunting in Sentinel | Threat Hunting |  Done |
+| 14 | Hunt for Entra ID Events | Threat Hunting |  Done |
+| 15 | Threat Intelligence in Sentinel | Threat Intel |  Done |
+| 16 | UEBA Configuration | Behavioral Analytics |  Done |
+| 17 | Automation Rules | SOAR |  Done |
+| 18 | Playbook with MITRE ATT&CK & ChatGPT | SOAR |  Done |
+| 19 | Creating Workbooks | Visualization |  Done |
+| 20 | Watchlists & Analytic Rule Integration | Detection |  Done |
+| 21 | Notebooks with MSTICPy | ML & Analysis |  Done |
+| 22 | Cost Optimization Workbook | FinOps |  Done |
+| 23 | Azure DevOps Integration | IaC & CI/CD |  Done |
+| 24 | Defender XDR RBAC Configuration | Identity & Access |  Done |
+| 25 | Microsoft Defender for Cloud | Cloud Security |  Done |
+| 26 | SSH Brute Force Simulation (Kali) | Attack Simulation |  Done |
+| 27 | MITRE ATT&CK Overview in Sentinel | Framework |  Done |
 
 ---
 
-## 🔍 KQL Queries
+## KQL Queries
 
 All custom KQL queries used throughout this project are stored in the [`queries/`](queries/) directory.
 
@@ -150,11 +150,11 @@ let PentestingIPAddresses = _GetWatchlist('PentestingIPAddresses') | project IPA
 // ... rest of your rule query
 ```
 
-➡️ See the full [KQL Queries Reference](queries/README.md)
+ See the full [KQL Queries Reference](queries/README.md)
 
 ---
 
-## 📚 Concepts Covered
+##  Concepts Covered
 
 | Topic | Description |
 |---|---|
@@ -170,11 +170,11 @@ let PentestingIPAddresses = _GetWatchlist('PentestingIPAddresses') | project IPA
 | **IaC** | Infrastructure as Code with ARM Templates, Bicep, Terraform |
 | **Logic Apps** | Azure-native playbook automation engine |
 
-➡️ Deep dives in the [`docs/concepts/`](docs/concepts/) directory.
+**Deep dives in the [`docs/concepts/`](docs/concepts/) directory.**
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Step 1 - Clone This Repository
 ```bash
@@ -193,7 +193,7 @@ Labs are numbered and designed to build on each other. Start from Lab 01 and wor
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 microsoft-sentinel-siem-lab/
@@ -209,14 +209,13 @@ microsoft-sentinel-siem-lab/
 │   ├── analytic-rules.kql           ← Analytic rule queries
 │   └── watchlist-integration.kql    ← Watchlist KQL examples
 │
-├── assets/                          ← Architecture diagrams & screenshots
-│
-└── scripts/                         ← Helper scripts (optional automation)
+└── assets/                          ← Architecture diagrams
+
 ```
 
 ---
 
-## 🎯 Key Learnings
+##  Key Learnings
 
 1. **Sentinel Deployment** - Connecting a Log Analytics Workspace to Sentinel, enabling the 31-day free trial (10 GB/day).
 2. **Data Ingestion** - Connecting multiple data sources: Entra ID, Windows Security Events via AMA/DCR, and external Threat Intelligence via TAXII (Pulsedive).
@@ -231,7 +230,7 @@ microsoft-sentinel-siem-lab/
 
 ---
 
-## 🧰 Tools & Technologies Used
+##  Tools & Technologies Used
 
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kalilinux&logoColor=white)
 ![Metasploit](https://img.shields.io/badge/Metasploit-2A2A2A?style=flat&logo=metasploit&logoColor=white)
@@ -253,7 +252,7 @@ microsoft-sentinel-siem-lab/
 
 ---
 
-## ⚠️ Notes & Limitations
+##  Notes & Limitations
 
 - This project was completed on an **Azure Student Subscription**, which has some feature restrictions (e.g., certain Defender plans, parallel DevOps jobs).
 - The **Notebook (MSTICPy)** section was partially completed due to Azure ML compute costs.
@@ -263,13 +262,13 @@ microsoft-sentinel-siem-lab/
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to open issues or pull requests if you find errors, have improvements, or want to add additional labs!
 
